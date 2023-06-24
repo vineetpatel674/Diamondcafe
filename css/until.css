@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Dancing+Script&family=Great+Vibes&family=Gruppo&family=Lobster&display=swap');
+
+.dis{
+    display: flex;
+}
+.ju-cen{
+    justify-content: center;
+}
+.ju-end{
+    justify-content: end;
+}
+.ju-sp-ar{
+    justify-content: space-around;
+}
+.bg-co-darksa{
+    background-color: darksalmon;
+}
+.bg-co-lighksa{
+    background-color: rgb(229, 182, 166);
+}
+.padd{
+    padding: 9px 0px 19px 0px;
+}
+.mar{
+    margin: 0px 11px 0px 25px;
+}
+.te-deco{
+    text-decoration: none !important;
+}
+.te-co i{
+    color: black !important;
+}
+.po-ab{
+    position: absolute;
+}
+.ma{
+    margin: 0px 0px 0px 10px;
+}
+
+.burgar{
+   display: none;
+   position: absolute;
+   top: 5px;
+   right: 5%;
+}
+.line{
+    height: 2px;
+    width: 23px;
+    background-color: black;
+    margin: 4px 0px 0px 0px;
+}

@@ -1,0 +1,444 @@
+.bg-color{
+    background-color: rgb(169, 169, 169);
+    height: 1100px;
+}
+
+.pro{
+    background-color: rgb(169, 169, 169);
+    text-align: center;
+    width: 100%;
+}
+.pr{
+    margin: 6px 0px 0px 100px;
+    padding: 56px 0px 0px 0px;
+}
+.pr h1{
+    font-family: 'Gruppo', cursive;
+    margin: 0px 0px 41px 0px;
+}
+.product img{
+   height: 300px;
+   width: 300px;
+}
+.product img::after{
+    height: 300px;
+    width: 300px;
+    content: "hello";
+    position: absolute;
+    z-index: 99;
+
+}
+.product{
+    margin: 10px 0px 0px 0px;
+}
+.prod{
+    margin: 3px 0px 0px 20px;
+    height: 415px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.add-cart-but{
+    background-color: #4b0606;
+    height: 32px;
+    width: 230px;
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+/*.opa{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    transition: all 1s ease;
+    background-color: rgba(244, 241, 241, 0.71);
+    margin: 331px 0px 0px 0px;
+}
+.prod:hover .opa:hover{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    transition: all 1s ease;
+    background-color: rgba(244, 241, 241, 0.71);
+    margin: 231px 0px 0px 0px;
+}
+*/
+@media only screen and (max-width:1193px) {
+    .res-caf-img{
+        background: url("../images/slider\ \(7\).jpg");
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        width: 80vw !important;
+        position: relative;
+    }
+
+}
+.product-img-ice-one{
+    background: url("../images/ice/ice-creem\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.product-img-ice-two{
+    background: url("../images/ice/ice-creem\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.product-img-ice-three{
+    background: url("../images/ice/ice-creem\ \(3\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-burgar-one{
+    background: url("../images/burgar/burger\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-burgar-two{
+    background: url("../images/burgar/burger\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-burgar-three{
+    background: url("../images/burgar/burger\ \(3\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-pizza-one{
+    background: url("../images/pizza/pizza\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-pizza-two{
+    background: url("../images/pizza/pizza\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-pizza-three{
+    background: url("../images/pizza/pizza\ \(3\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-wine-one{
+    background: url("../images/wine/wine\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-wine-two{
+    background: url("../images/wine/wine\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img-wine-three{
+    background: url("../images/wine/wine\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.product-img::after{
+    display: none;
+    opacity: 0;
+    content: "Quick view";
+    position: absolute;
+    top: 100%;
+    height: 59px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.591);
+    transition: all 1s ease;
+
+}
+.product-img:hover::after{
+    display: block;
+    opacity: 1;
+    content: "Quick view";
+    position: absolute;
+    padding: 10px 0px 0px 0px;
+    top: 80%;
+    height: 59px;
+    left: 0;
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.591);
+    transition: all 1s ease;
+
+}
+.about-text{
+    background-color: darkgray;
+    text-align: center;
+    padding: 120px;
+}
+
+.about-text img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 0px 0px 10px 0px;
+}
+.about-text h1{
+    font-family: 'Gruppo', cursive;
+    margin: 27px 0px 29px 0px;
+}
+.about-text p{
+    margin: 3px 156px 26px 156px;
+}
+.cont{
+     justify-content: center;
+}
+.cont-right{
+    width: 578px;
+    margin: 105px 0px 0px 151px;
+}
+.cont-font h1{
+    font-family: 'Gruppo', cursive;
+}
+
+.cont-left{
+    margin: 95px 0px 0px 138px;
+    width: 552px;
+}
+.cont-left h1{
+    font-family: 'Gruppo', cursive;
+}
+.cont-form input{
+    height: 40px;
+    width: 314px;
+    margin: 16px 0px 0px 0px;
+    border: none;
+    border-bottom: 2px solid;
+    background-color: #00000005;
+    color: white;
+    outline: none;
+    padding: 14px;
+}
+.cont-form textarea{
+    height: 50px;
+    width: 314px;
+    margin: 16px 0px 0px 0px;
+    border: none;
+    border-bottom: 2px solid;
+    background-color: #00000005;
+    color: white;
+    outline: none;
+    padding: 14px;
+}
+.cont-form button{
+    height: 38px;
+    width: 311px;
+    background-color: #3f0b0b;
+    color: whitesmoke;
+    border: 1px;
+    font-family: 'Gruppo', cursive;
+    margin: 23px 0px 0px 0px;
+    transition: all 1s ease;
+}
+.cont-form button:hover{
+    cursor: pointer;
+    height: 38px;
+    width: 311px;
+    background-color: #603939;
+    color: rgb(212, 194, 194);
+    border: 1px;
+    font-family: 'Gruppo', cursive;
+    margin: 23px 0px 0px 0px;
+    transition: all 1s ease;
+}
+
+.map{
+    margin: 56px 0px 133px 132px;
+}
+.faqh{
+    display: block;
+    font-family: 'Gruppo', cursive;
+    font-size: 30px;
+    opacity: 1;
+}
+.fa{
+    opacity: 0;
+    display: none;
+    font-family: 'Gruppo', cursive;
+    font-size: 30px;
+}
+.faq-text{
+    margin: 0px 0px 0px 238px;
+    padding: 80px 0px 0px 0px;
+}
+
+.faqbox{
+    border: 2px solid;
+    width: 750px;
+    position: absolute;
+    height: 47px;
+    display: flex;
+}
+.fqbo{
+    position: absolute;
+    border: 2px solid;
+    width: 0px;
+    height: 47px;
+    display: flex;
+    justify-content: end;
+}
+
+#fqb{
+   display: block;
+}
+#faqbo{
+    display: block;
+}
+
+#icon{
+    padding: 12px;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+.faqi{
+    display: block;
+    border: none;
+    opacity: 1;
+    width: 680px;
+    border-bottom: 2px solid;
+    height: 36px;
+    background-color: #00000000;
+    outline: none;
+    margin: 0px 50px 0px 0px;
+}
+.fi{
+    display: none;
+
+}
+
+
+/*-----====================== COMMENTS SECTION ========================----------*/
+
+.comment-section{
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}
+#unordered::after{
+  content: icon"<i class="fa-sharp fa-solid fa-circle-user dimonAnima"></i>";
+}
+
+.container{
+    width: 500px;
+    text-align: right;
+}
+
+.box-container{
+    height: 200px;
+    width:100%;
+    background: #444;
+    box-shadow: 0 5px 15px #111;
+    border-radius: 15px;
+    padding: 15px;
+    display: none;
+}
+.box-container .bo{
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f8f8f8;
+  overflow-y: auto;
+  text-align: left;
+
+}
+#input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    outline: none;
+
+}
+#input:focus{
+    border-bottom: 2px solid #fff;
+}
+
+button{
+    height: 30px;
+    width: 160px;
+    background: #ff0033;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #111;
+    border-radius: 5px;
+}
+
+button:hover{
+   opacity: .8;
+}
+
+
+/*-----====================== NOT FOUND PAGE ========================----------*/
+
+.notfound img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: 9999;
+}

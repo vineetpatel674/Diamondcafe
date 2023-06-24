@@ -1,0 +1,260 @@
+@media only screen and (max-width:1193px) {
+    .res-bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .res-dis {
+        flex-direction: column;
+    }
+
+    .res-log {
+        display: none;
+        transition: all 1.3s ease;
+    }
+
+    .res-nav {
+        display: none;
+        transition: all 1.3s ease;
+    }
+
+    .res-na {
+        display: block;
+        z-index: 999;
+        position: absolute;
+        top: 220px;
+        font-size: 3em;
+        transition: all 1.3s ease;
+        height: 70vh;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .res-lo {
+        display: block;
+        z-index: 99;
+        position: absolute;
+        top: 100px;
+        font-size: 3em;
+        transition: all 1.3s ease;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .res-nave{
+        text-align: center;
+    }
+
+
+    .res-cart {
+        position: absolute;
+        top: 10px;
+        left: -2px;
+    }
+
+    .res-diam {
+        position: absolute;
+        left: 60px;
+        top: 10px;
+        font-size: 2em;
+    }
+
+    .res-sear {
+        position: absolute;
+        top: 65px;
+        width: 100vw;
+        margin: 0;
+
+    }
+
+    .res-sear:hover {
+        position: absolute;
+        top: 65px;
+        width: 100vw;
+        margin: 0;
+
+    }
+
+    .res-padd {
+        height: 130px;
+        width: 100vw;
+    }
+
+    .res-head {
+        transition: all 1.2s ease;
+    }
+
+    .res-he {
+        position: relative;
+        background-color: white;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        z-index: 99;
+        transition: all 1.2s ease;
+    }
+    .res-widhei{
+        width: 100vw;
+    }
+    .res-sl p{
+        font-size: 3em;
+        width: 100vw;
+    }
+    .res-sl{
+        width: 100vw;
+        margin: 0;
+        top: 50px;
+        left: 0;
+        height: 70vh;
+        text-align: center;
+    }
+    .res-cock img{
+        width: 100vw;
+        margin: 0px 0px 20px 0px;
+    }
+    .res-ju{
+        margin: 0;
+        left: 0;
+    }
+    .res-cock{
+        width: 100vw;
+        margin: 0px 0px 20px 0px;
+    }
+    .res-hr{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .res-alcoo{
+        text-align: center;
+    }
+    .res-alcoo{
+        text-align:center;
+        margin: 0;
+    }
+    .res-alcoo:hover{
+        text-align: center;
+        margin: 0;
+    }
+    .res-all-coo-butt{
+         margin-left: 0;
+        width: 40vw;
+        font-size: 1.1em;
+    }
+    .res-all-coo-butt:hover{
+        
+        margin-left: 0;
+        width: 40vw;
+        font-size: 1.1em;
+    }
+    .res-lo-mo{
+        margin: 50px 0px 0px 30px;
+        width: 80vw;
+    }
+    .res-lo-mo:hover{
+        margin: 50px 0px 0px 30px;
+        width: 90vw;
+    }
+    .res-foot{
+        margin-left: 15px;
+    }
+    .res-fo4{
+        width: 70vw;
+    }
+    .res-fo4 input{
+        width: 70vw;
+    }
+    .res-fo4 button{
+        width: 70vw;
+    }
+    .res-fo4 button:hover{
+        width: 70vw;
+    }
+    .res-rightes{
+        text-align: center;
+    }
+    .res-footer{
+        width: 100vw;
+    }
+    .res-foll-mor{
+        width: 100vw;
+    }
+    .res-slid{
+        width: 100vw;
+    }
+    .res-size{
+        border: 1px;
+        width: 80vw;
+        margin: 20px 0px 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 19px 7px darksalmon;
+    }
+    .res-size p{
+        font-size: 1em;
+    }
+    .res-size i{
+        border-right: 1px;
+    }
+    .res-teico{
+        width: 90vw;
+        justify-content: 0;
+        margin: 0;
+    }
+    .res-all-item{
+        margin: 0;
+    }
+    .res-cocks {
+       width: 40vw !important;
+       margin: 10px 0px 0px 10px;
+    }
+    .res-cocks img{
+       width: 40vw !important;
+    }
+    .res-dip{
+        flex-wrap: wrap;
+    }
+    .res-pr{
+       margin: 0 !important;
+       padding: 0 !important ;
+    }
+    .res-p{
+        text-align: center;
+
+    }
+    .res-add-cart-but{
+        width: 70vw !important;
+
+    }
+    .res-product{
+        margin-bottom: 20px !important;
+    }
+    .res-bg-color{
+        width: 100vw !important;
+    }
+    .res-about-text{
+        padding: 0px !important ;
+    }
+    .res-about-text img{
+         width: 55vw !important;
+    }
+    .res-about-text article{
+       margin: 0;
+
+    }
+    .res-cont-left{
+        margin: 20px !important;
+        width: 80vw !important;
+    }
+    .res-cont-lef{
+        margin: 10px !important;
+        width: 80vw !important;
+    }
+    .res-cont-form input,.res-cont-form textarea{
+        width: 30vw !important;
+    }
+    .res-cont-form button{
+        width: 30vw !important;
+    }
+    .res-bg-height{
+        height: 1500px !important;
+    }
+
+}
